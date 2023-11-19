@@ -1,0 +1,29 @@
+
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.button {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 256px;
+  height: 2.8125rem;
+  padding: 0.9rem 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  background-color: #1a202c;
+  border-radius: 2px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: all 0.3s ease;
+}
+
+.button:hover{
+  opacity: 1;
+}

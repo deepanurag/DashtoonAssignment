@@ -1,0 +1,42 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  width: 200px;
+}
+
+.label {
+  color: #b5b5b5;
+  font-weight: 500;
+  display:flex;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 200px;
+  min-height: 1.2125rem;
+  padding-top: 10px;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.382);
+  background-color: rgb(39,39,56);
+  font-size: large;
+  vertical-align: bottom;
+}
+.input::placeholder {
+  background-color: red;
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.input:focus{
+  outline: none;
+}
+@media only screen and (max-width: 767px) {
+  .field{
+    width: 100%;
+  }
+}
